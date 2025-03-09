@@ -1,0 +1,1339 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* //navabar */
+
+.flight_icon{
+  transform: rotate(45deg);
+  display: inline-block;
+  color: orange;
+  font-size: 35px;
+}
+.icon{
+  color: orange;
+  font-size: 35px;
+}
+.hotel_icon{
+  color: red;
+  font-size: 35px;
+}
+.offer_icon{
+  transform: rotate(85deg);
+  display: inline-block;
+  color:green;
+  font-size: 35px;
+}
+.ticket_icon{
+  transform: rotate(120deg);
+  display: inline-block;
+  color:lightslategray;
+  font-size: 35px;
+}
+
+.main{
+  height: 400px;
+}
+.nav1{
+  margin-top: 10em;
+  position: fixed;
+}
+
+/* navbar1 */
+
+.ticket_icon1{
+  transform: rotate(120deg);
+  display: inline-block;
+  color:lightslategray;
+  font-size: 30px;
+  color: red;
+}
+
+/* home page */
+.main_page{
+  display: flex ;
+}
+
+.main_img{
+  background: url(/src/PHOTOS/bus.jpg);
+  width: 900px;
+  height: 600px;
+  margin-top: 3em;
+  border-radius: 20px;
+}
+.main_page2{
+  margin-top: 3em;
+  background-image: linear-gradient(lightblue,lightgreen);
+  width: 950px;
+  height: 600px;
+  border-radius: 20px;
+
+}
+
+form{
+  width: 400px;
+  margin-top: 2em;
+  margin-left: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+  align-items: center;
+  
+}
+form input{
+  margin-top: 1em;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form p{
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+form .bus_icon{
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+}
+form button{
+  margin-bottom: 1em;
+  width: 150px;
+}
+.nav_text{
+  margin-top: 20px;
+  margin-left: 40px;
+  border: 2px solid black;
+  width: 400px;
+  margin-left: 200px;
+  border-radius: 10px;
+}
+ul i{
+  font-size: 30px;
+  cursor: pointer;
+}
+.ic{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.ca1 img{
+  width: 300px;
+  height: 100px;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  scrollbar-width: 30px;
+  cursor: pointer;
+}
+
+.ca1{
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 28em;
+  height: 100px;
+}
+.bus_icon2{
+  font-size: 50px;
+  margin-top: 1em;
+}
+
+/* // main_card */
+.main_card{
+  margin-top: 2em;
+  text-decoration: none;
+}
+.main_card .dp{
+  font-size: 30px;
+  margin-left: 50px;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.card1{
+  display: flex;
+  width: 100%;
+  margin-top: em;
+  /* margin-left: 40px; */
+}
+.card_img{
+  display: flex;
+}
+.card_img1 img{
+  width: 320px;
+  height: 150px;
+  margin: 10px;
+  margin-left: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card_img img::after{
+  width: 100px;
+  height: 400px;
+  cursor: all-scroll;
+}
+
+/* main_card2 */
+.card2_text .dp{
+  font-size: 30px;
+  margin-left: 50px;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.card2_text .p1{
+  margin-right: 40px;
+}
+.card2{
+  display: flex;
+  margin-left: 50px;
+  /* margin-top: 3em; */
+  gap: 30px;
+}
+.card2_icon{
+  font-size: 90px;
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+  color: orange;
+}
+
+.card2_icon i{
+  margin-top: em;
+}
+.card_icon_text{
+  margin-right: 20px;
+}
+.card2_icon_text .p{
+font-size: 20px;
+font-weight: 600;
+margin-right: 20px;
+margin-top: 1em;
+}
+.card4{
+  display: flex;
+}
+
+
+/* app_img */
+.app_info{
+  font-size: 30px;
+  margin-top: 2em;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: 600;
+}
+.app_img{
+  background: url(./PHOTOS/black.webp);
+  width: 100%;
+  height: 600px;
+  margin-top: 1em;
+  display: flex;
+}
+.app_img2{
+  width: 100px;
+  height: 100px;
+}
+.app_img2 img{
+  width: 600px;
+  height: 550px;
+  margin-top: 2em;
+  text-align: right;
+  margin-left: 800px;
+  display: inline-block;
+  
+  
+}
+.app_img3{
+  display: flex;
+  color: white;
+}
+.app_main_text .p{
+  margin-top: 2em;
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 900px;
+  font-family: cursive;
+}
+.app_text3{
+  color: white;
+  display: grid;
+  margin-right: 100px;
+
+}
+.app_text1 {
+  color: white;
+}
+.app_text{
+  color: white;
+  margin-right: 800px;
+  display: flex;
+  gap: 20px;
+}
+.app_text1 .p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-top: 0.5em; 
+}
+
+.app_text1 .p1{
+  font-size: 20px;
+  margin-top: 0.5em;
+  font-weight: 600;
+  margin-right: 20px;
+  
+}
+.logo_img{
+  display: flex;
+}
+.logo_img .img{
+  width: 150px;
+  margin-top: 2em;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 0px;
+}
+.logo_img img{
+  width: 150px;
+  margin-top: 2em;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.stars_text{
+  display: grid;
+  margin-left: 30px;
+}
+
+.stars_text1 i{
+  font-size: 40px;
+  color: yellow;
+}
+.tick{
+  border: 1px solid black;
+  font-size: 20px;
+  margin-right: 3px;
+  border-radius: 50%;
+  color: black;
+  background-color: red;
+}
+
+/*  -footer */
+.fo{
+  display: grid;
+  width: 100%;
+}
+.fo1{
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(#3f51b5,#3f51b5);
+
+}
+
+.home_social_icons{
+  font-size: 30px;
+  margin: 20px;
+  cursor: pointer;
+  height: 40px;
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  align-items: end;
+  margin-left: 400px;
+}
+.home_text{
+  margin-left: 40px;
+  font-size: 20px;
+  /* margin-top: 1em; */
+  color: white;
+  cursor: pointer;
+
+}
+.home_social_icons a{
+  margin-left: 20px;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.fo2{
+  /* color: white; */
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+  /* background-color:black; */
+  background-image: linear-gradient(black,black);
+}
+.fo3{
+  margin-right: 100px;
+  margin-left: 40px;
+  cursor: pointer;
+  color: white;
+
+}
+.fo4{
+  margin-right: 100px;
+  cursor: pointer;
+  color: white;
+
+}
+.fo5{
+  cursor: pointer;
+  color: white;  
+}
+.fo6{
+  margin-left: 100px;
+  text-decoration: #61dafb;
+  cursor: pointer;
+  color: white;
+}
+.fo3 .text{
+  text-align: left;
+  margin-top: 1em;
+  color: white;
+  font-size: 20px;
+}
+
+.fo4 .text{
+  text-align: left;
+  margin-top: 1em;
+  color: white;
+  font-size: 20px;
+
+}
+.fo5 .text{
+  text-align: left;
+  margin-top: 1em;
+  color: white;
+  font-size: 20px;
+
+}
+
+.con{
+  text-align: left;
+  margin-top:1em ;
+
+}
+.con i{
+  margin: 10px;
+}
+.fo7{
+  background-image: linear-gradient(gold,gold);
+  font-family: cursive;
+  cursor: pointer;
+
+}
+.fo7 i{
+  color: black;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 0.4em;
+  cursor: pointer;
+}
+
+/* train */
+.train_img{
+  background: url(/src/PHOTOS/train.avif);
+  width: 100%;
+  height: 500px;
+  margin-top: 2em;
+}
+.train_text{
+  font-family: 30px;
+  margin-top: 2em;
+}
+.train_text p{
+  margin-top: 50em;
+}
+
+.train_img2 h1{
+  margin-top: 4em;
+  color:white;
+}
+.train_img2 p{
+  color:white;
+  font-size: 30px;
+}
+.train_img .form{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 2em;
+  height: 90px;
+  width: 90%;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 1em;
+}
+.train_img .form input{
+  width: 300px;
+  margin-top: 2em;
+}
+.train_img .form button{
+  width: 200px;
+  margin-top: 2em;
+}
+.form img{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+.train_main_text{
+  margin-top: 4em;
+  text-align: left;
+  margin-left: 40px;
+}
+.train_ticket{
+  color: black;
+}
+.train_icon i{
+  font-size: 4em;
+  margin-right: 30px;
+  color:red;
+  margin-top: 2em;
+  border-radius: 50%;
+}
+.train_icon_text{
+  margin-right: 30px;
+  display: grid;
+}
+.train_icon_text .p{
+font-size: 30px;
+font-weight: 600;
+margin-top: 1em;  
+}
+.train_icon_text p{
+  margin-top: 0.1em;  
+  }
+.train_text1{
+  display: flex;
+  margin-left: 130px;
+}
+.train_text3{
+  display: flex;
+}
+.train_text2{
+  margin-top: 2em;
+}
+
+.train_icon img{
+  width: 100px;
+  margin-top: 2.5em;
+  margin-right: 30px  ;
+}
+
+
+
+
+
+/* flights page */
+.flights_img{
+  background: url(/src/PHOTOS/fi.jpg);
+  height: 600px;
+  width: 100%;
+
+}
+.flight_icon1{
+  transform: rotate(45deg);
+  display: inline-block;
+  color:red;
+  font-size: 45px;
+}
+.icon1{
+  color: blue;
+  font-size: 45px;
+}
+.hotel_icon1{
+  color:black;
+  font-size: 45px;
+}
+.card{
+  width: 90%;
+  margin-top:4em;
+  height: 70px;
+  margin-left: 50px;
+  box-shadow: 10px 10px 10px 0px black;
+  border-radius: 30%;
+}
+.card_text{
+  display: flex;
+  margin: 20px;
+  margin-left: 40px;
+}
+.card_text p{
+  margin-left: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  border-left: 1cm;
+  border-top: 1cm;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* trains  and hotels all form */
+.card .form1{
+  display: flex;
+  margin-left: 30px;
+  margin-top: em;
+  gap: 10px;
+
+}
+.form1 input,.bu1{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+.from1 {
+  width: 200px;
+}
+.card_text1 .p{
+  margin-left: 40px;
+  font-size: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+.card_text1{
+  display: flex;
+  margin: 20px;
+  margin-left: 40px;
+}
+.card_text1 .p1{
+  margin-left: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 0.5em;
+  border-left: 1cm;
+  border-top: 1cm; 
+  active-color:red;
+  cursor: pointer;
+
+}
+.flight_more_text{
+  margin-top: 2em;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 50px;
+}
+
+
+.card7{
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 0px black;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.flight_more i{
+  margin-top: em;
+  margin-left: 100px;
+}
+.flight_more p{
+  margin-left: 100px;
+  font-weight: 600;
+}
+.flight_more .flight_icon2{
+  font-size: 50px;
+  transform: rotate(360deg);
+  display: inline-block;
+  color:green;
+}
+.flight_more .flight_icon3{
+  font-size: 50px;
+  color:black;
+}
+.flight_more .flight_icon4{
+  font-size: 50px;
+  color:black;
+}
+.flight_more .flight_icon5{
+  font-size: 50px;
+  color:red;
+}
+
+/* feSpot_offers */
+.flights_offers{
+    display: flex;
+}
+.flights_offers .card3{
+  width: 50px;
+  
+}
+.card_img{
+  display: flex;
+}
+.card_img img{
+  width: 310px;
+  height: 150px;
+  margin: 10px;
+  margin-left: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 5px 10px 10px 0px black;
+}
+.main_card p{
+  font-size: 30px;
+  margin-top: 2em;
+  color: black;
+  margin-left: 70px;
+  text-align: left;
+  font-weight: 600;
+}
+.card2_text .p{
+  font-size: 30px;
+  margin-right: 790px;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.card2_text .p1{
+  margin-right: 20px;
+}
+.card2{
+  display: flex;
+  margin-left: 50px;
+  gap: 30px;
+}
+.card2_main{
+  font-size: 30px;
+  margin-top: 3em;
+  font-weight: 600;
+  margin-left: 50px;
+  text-align: left;
+}
+.flights_icon{
+  font-size: 90px;
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  background-color: red;
+  /* color:; */
+}
+.flights_icon i{
+  margin-top: em;
+}
+.flights_icon_text{
+  margin-right: 20px;
+  background-color: lightblue;
+}
+.flights_icon_text .p{
+  font-size: 20px;
+  background-color: lightblue;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-top: 1em;
+}
+.card4{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.card9{
+  width: 300px;
+  border: 1px solid black;
+}
+.fo{
+  display: grid;
+  width: 100%;
+  margin-top: 5em;
+}
+.fo1{
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+  background-image: linear-gradient(#3f51b5,#3f51b5);
+
+}
+
+.home_social_icons{
+  font-size: 30px;
+  background-color: white;
+  margin: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 500px;
+  border-radius: 20px;
+  align-items: end;
+  margin-left: 400px;
+}
+.home_text{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 1em;
+  color: white;
+  cursor: pointer;
+
+}
+.home_social_icons a{
+  margin-left: 20px;
+}
+.foter2{
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:black;
+}
+.foter3{
+  margin-right: 100px;
+  margin-left: 40px;
+  cursor: pointer;
+  color: white;
+
+}
+.foter4{
+  margin-right: 100px;
+  cursor: pointer;
+  color: white;
+
+}
+.foter5{
+  cursor: pointer;
+  color: white;  
+}
+.foter6{
+  margin-left: 100px;
+  text-decoration: #61dafb;
+  cursor: pointer;
+  color: white;
+}
+.foter3 .text{
+  text-align: left;
+  margin-top: 1em;
+  color: white;
+  font-size: 20px;
+}
+
+.foter4 .text{
+  text-align: left;
+  margin-top: 1em;
+  color: white;
+  font-size: 20px;
+
+}
+.foter5 .text{
+  text-align: left;
+  margin-top: 1em;
+  color: white;
+  font-size: 20px;
+
+}
+
+.con{
+  text-align: left;
+  margin-top:1em ;
+
+}
+.con i{
+  margin: 10px;
+}
+.foter7{
+  background-image: linear-gradient(gold,gold);
+  font-family: cursive;
+  cursor: pointer;
+
+}
+.foter7 i{
+  color: black;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 0.4em;
+}
+
+
+/* Hotel page */
+
+.hotel_img{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url('/src/PHOTOS/hotel.jpg');
+  width: 100%;
+  height: 500px;
+}
+.flight_icon2{
+  transform: rotate(45deg);
+  display: inline-block;
+  font-size: 45px;
+}
+.icon2{
+  font-size: 45px;
+}
+.hotel_icon2{
+  color:red;
+  font-size: 45px;
+}
+.card_do{
+  width: 90%;
+  margin-top:16em;
+  height: 70px;
+  margin-left: 50px;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 10px 10px 10px 0px black;
+  border-radius: 50%;
+}
+.hotel_text{
+  display: flex;
+  margin: 20px;
+  margin-left: 40px;
+  text-align: center;
+  margin-left: 300px;
+
+}
+.hotel_text p{
+  margin-left: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  border-left: 1cm;
+  border-top: 1cm;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+.card_do .form2{
+  display: flex;
+  margin-left: 30px;
+  margin-top: em;
+  gap: 20px;
+
+}
+.form2 input{
+width: 300px;
+height: 50px;
+text-align: center;
+font-weight: 600;
+margin-bottom: 2em;
+border-radius: 10px;
+}
+.form2 .in{
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2em;
+  }
+.from2 .bu1{
+width: 20px;
+}
+.card_text1 .p{
+  margin-left: 40px;
+  font-size: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+.card_text1{
+  display: flex;
+  margin: 20px;
+  margin-left: 40px;
+}
+/* //icons */
+.flights_icon1{
+  font-size: 90px;
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  background-color:blue;
+}
+.flights_icon_text1{
+  margin-right: 20px;
+  background-color: lightpink;
+}
+.flights_icon_text1 .p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-top: 1em;
+}
+
+/* trains1 page  */
+.train_main{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url('https://images8.alphacoders.com/295/thumb-1920-295885.jpg');
+  height: 600px;
+}
+.form1 .bu{
+  width: 200px;
+  height: 50px;
+}
+
+/* buess1 page */
+.bus_img{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://png.pngtree.com/background/20230606/original/pngtree-rental-luxury-tour-bus-on-the-road-picture-image_2882228.jpg);
+  width: 100%;
+  height: 600px;
+}.card_do1{
+  width: 90%;
+  margin-top:25em;
+  height: 90px;
+  border-radius: 20px;
+  margin-left: 50px;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 10px 10px 10px 0px black;
+}
+.hotel_text1{
+  display: flex;
+  margin: 20px;
+  margin-left: 40px;
+}
+.hotel_text1 p{
+  margin-left: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  border-left: 1cm;
+  border-top: 1cm;
+  margin-left: 500px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.card_do1 .form3{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 1em;
+  gap: 20px;
+
+}
+.form3 input,.bu4{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+.from3 .bu4{
+  width: 300px;
+}
+.flights_icon2 {
+  font-size: 90px;
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+}
+.hotel_icon3{
+  font-size: 50px;
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+}
+
+/* offers page */
+
+.offers_main{
+  width: 100%;
+  display: flex;
+  margin-top: 1em;
+  background-color: aquamarine;
+  height: 80px;
+}
+.offers_main input{
+  display: flex;
+  width: 2%0;
+  margin-top: 1em;
+  margin-left: 40px;
+}
+.offers_main button{
+  display: flex;
+  width: 20%;
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 40px;
+}
+.offers_text{
+  margin-top: 2em;
+}
+.container{
+  width: 80%;
+}
+.card_img1{
+  display: grid;
+}
+
+.card-header img{
+  width:200px;
+  height: 100px;
+  text-align: center;
+}
+.card_offers1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.offer_card1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card-body{
+  display: flex;
+}
+.card-body p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+
+
+/* Booking page */
+
+.booking_text{
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 2em;  
+}
+.booking_text .p{
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+.booking_text p{
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.card .form{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 3em;
+    gap: 20px;
+
+}
+.form input{
+  width: 450px;
+  height: 50px;
+  margin-bottom: 4em;
+}
+.from .bu1{
+  width: 120px;
+  margin-top: 5em;
+  margin-bottom: 4em;
+}
+.card-header{
+  text-align: left;
+  font-size: 18px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+/* help page */
+
+ .main_card1{
+  display: flex;
+  width: 100%;
+} 
+.main_card12{
+  display: grid;
+  width: 100%;
+  margin-top: 2em;
+  margin: 20px;
+  gap: 40px;
+  grid-template-columns: auto auto auto ;
+}
+.main_card12{
+  width: 80%;
+}
+.main_card5{
+  width: 40%;
+}
+.qu{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 2em;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main_card12 .header{
+  font-size: 25px;
+  color: green;
+  text-align: left;
+  margin-left: 30px;
+  align-items: baseline;
+}
+.main_card12 .header i{
+  font-size: 40px;
+  align-items: center;
+}
+.main_card2 .card-body1{
+  /* text-align: left; */
+  display: grid;
+}
+.main_card12 .card-body1 .cd{
+  font-size: 25px;
+  font-weight: 600;
+}
+.main_card3{
+  display: grid;
+}
+.main_card3 img{
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 3em;
+  align-items: center;
+}
+.main_card3 p{
+  margin-top: 1em;
+  font-weight: 600;
+  font-size: 25px;
+}
+.main_card3 input{
+  width: 350px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+.main_card6 .p2{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 2em;
+}
+.main_card6 p{
+  text-align: left;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.dropdown button{
+  width: 100%;
+  text-align: left;
+}
+
+/* sign up */
+
+.sign_up{
+  align-items: center;
+  /* position: fixed; */
+  display: flex;
+}
+.sign_up form{
+  align-items:center;
+  width: 400px;
+  height: 630px;
+  margin-bottom: 2em;
+  box-shadow: 05px 0px 5px 0px black;
+}
+.sign_up form .input{
+  margin-top: 2em;  
+}
+.sign_up form .submit{
+  margin-top: 2em;
+  color: black;
+  width: 150px;  
+  background-color:red;
+}
+.sign_up form .submit:hover{
+  /* transform: matrix(0,1,1,0,0,0); */
+  transform: translate(-10px, -20px);
+}
+.sign_up form p{
+  text-align: center;
+  margin-top: 1em;
+  font-size: 30px;
+  color: #3f51b5;
+}
+.sign_up form input{
+  border-top: 1em;
+  border-left: 1em;
+  border-right: 1em;
+}
+.sign_up_icons{
+  display: grid;
+  width: 80%;
+  margin-left: 30px;
+}
+.sign_up_icons .pr{
+}
+.sign_up_icons .dan{
+  /* height: 20px; */
+  font-size: 18px;
+  /* margin-left: 20px; */
+}
+.sign_text .a{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  margin-top: 1em;
+  display: flex;
+}
+.sign_text .a1{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 16px; 
+  font-weight: 600;
+  margin-top: 1em;
+}
+.sign_text{
+  display: flex;
+}
+
+/* .mobile{
+  @media only screen and(max-width: 767px){
+      width: 50%;
+      height: 200px;
+  }
+} */
+
+
+
+
+
+
